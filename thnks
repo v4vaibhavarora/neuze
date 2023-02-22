@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&family=Saira:wght@200&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Stay Connected</title>
+	<style>
+		body {
+			font-family: 'Chakra Petch', sans-serif;
+            font-family: 'Saira', sans-serif;
+			text-align: center;
+			margin: 0;
+			padding: 0;
+			background-color: #171717;
+		}
+		
+		h1 {
+			font-size: 8vw;
+			margin-top: 8vw;
+			margin-bottom: 4vw;
+            color: #605964;
+		}
+		
+		h3 {
+			font-size: 5vw;
+			margin-top: 2vw;
+			margin-bottom: 6vw;
+            color: #605964;
+		}
+		
+		    button {
+			height: 12vw;
+			width: 72vw;
+			margin-bottom: 4vw;
+			border: none;
+			border-radius: 2vw;
+			font-size: 4vw;
+			color: white;
+			background-color: #007bff;
+			text-decoration: none
+			display: block;
+			margin-left: auto;
+			margin-right: auto;
+		}
+		
+		@media only screen and (min-width: 768px) {
+			body {
+				background-color: #171717;
+			}
+			
+			h1 {
+				font-size: 5rem;
+				margin-top: 3rem;
+				margin-bottom: 2rem;
+			}
+			
+			h3 {
+				font-size: 2.5rem;
+				margin-top: 1.5rem;
+				margin-bottom: 4rem;
+			}
+			
+			button {
+                text-decoration: none
+				height: 3rem;
+				width: 50%;
+				margin-bottom: 2rem;
+				border-radius: 1rem;
+				font-size: 1.5rem;
+				margin-left: 25%;
+				margin-right: 25%;
+			}
+		}
+        .ig{
+            background: linear-gradient(to right, #f58529, #dd2a7b, #c13584);
+        }
+        .sc{
+            background-color: #fff44f;
+        }
+        .gm{
+            background: linear-gradient(to bottom, #d44638, #dd4b39, #e44c3e, #e54d3f);
+        }
+        .wa{
+            background-color: green;
+        }
+        .cm{
+            background-color: #bc9485;
+        }
+	</style>
+</head>
+<body>
+	<h1><b>THANK YOU</b></h1>
+	<h3><b>Select your preferred mode of communication from below and reach out to me effortlessly.</b></h3>
+	<a href="https://www.facebook.com/vaibhav.arora.589100" target="_blank" rel="noopener noreferrer"><button>Facebook</button></a>
+	<a href="http://www.instagram.com/v4vaibhavarora" target="_blank" rel="noopener noreferrer"><button class="ig">Instagram</button></a>
+	<a href="https://www.snapchat.com/add/vaibhav4217v?share_id=AQehFQ56_s0&locale=en-US" target="_blank" rel="noopener noreferrer"><button class="sc">Snapchat</button></a>
+	<a href="mailto:aroravaibhav249%40gmail.com" target="_blank" rel="noopener noreferrer" ><button class="gm">Gmail</button></a>
+	<a href="https://tinyurl.com/talktovaibhav"target="_blank" rel="noopener noreferrer"><button class="wa">WhatsApp</button></a>
+	<a href="tel:9896499155"><button class="cm">Call Me</button></a>
+</body>
+</html>
